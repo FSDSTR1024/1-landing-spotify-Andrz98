@@ -2,14 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family:  'Montserrat', Arial, sans-serif;
 }
 
 ul {
     display: flex;
     justify-content: space-evenly;
-    background-color: #fff;
+    background-color: black;
     text-decoration: none;
     padding: 0 20px;
     list-style: none;
+}
+
+li * {
+    text-decoration: none;
+    color: white;
 }

@@ -1,20 +1,64 @@
+/* En primer lugar voy a restablecer los estilos "margin", "pading", "box-sizing" que vienen por defencto en el navegador" */
+
+/* Con el "*" indico que los cambios se aplican a toda la página. */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  'Montserrat', Arial, sans-serif;
 }
 
+/* Según el orden que he ido siguiendo en el HTML, ahora formulare los estilos generales de la página. */
+
+body {
+    font-family: "Montserrat", "Sans serif";
+    background-color: #121212;
+    color: #fff; /* En este caso, el atributo "color", solo actuará en el color del texto para el cuerpo en general, pero no lo hará para elementos que tengan una forma predeterminada, como por ejemplo: los enlaces <a>. */
+}
+
+/* El siguiente elemento que voy a configurar es el "header", de nuevo, estoy siguiendo el orden del HTML */
+
+header {
+    padding: 0 15px;
+    margin: 0 46.667px;
+}
+
+/* Una vez se han dado los parametro 
+que deseaba al header, el siguiente elemento será la barra de navegación */
+
+nav.bar-menu {
+    display:flex; /* Dotamos al elemento con un flexbox */
+    align-items: stretch;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+/* El siguiente elemento es <div class="logo"> .logo img */
+
+.logo img{
+    height: 100%; 
+    width: 100%;
+    display: inline-block; /* Así consigo que el logo se comporte como un elemento en línea, manteniendo el tamaño ajustado. */
+}
+
+/* El siguiente paso es la lista del menú */
 ul {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-    text-decoration: none;
-    padding: 0 20px;
     list-style: none;
+    display:flex;
+    gap: 20px;
+    align-items: center;
 }
 
-li * {
-    text-decoration: none;
+/* Definido el listado desordenado, empezaremos con el elemento .lst */
+
+.lst {
+    font-weight: bold; /* La fuente aparecera en negrita para resaltar el menú. */
+}
+
+/* Este paso resulta complejo. En el caso de encontrar un separador en la barra de navegación, este se representa de la siguiente forma. */
+
+.lst-iniciar-sesion::after::after{
+    content: "|"; /*Con este content estoy agregando una barra separadora. */
+    margin: 32px 17px;
     color: white;
 }

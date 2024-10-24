@@ -29,16 +29,21 @@ nav.bar-menu {
     display:flex; /* Dotamos al elemento con un flexbox */
     align-items: stretch;
     justify-content: space-between;
-    width: 90%;
-    margin: auto;
+    flex-wrap: wrap; /* El contenido se ajusta a multiples lineas. */
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    
 }
 
 /* El siguiente elemento es <div class="logo"> .logo img */
 
 .logo img{
-    height: 100%; 
-    width: 100%;
+    height: auto; 
+    max-width: 150%;
     display: inline-block; /* Así consigo que el logo se comporte como un elemento en línea, manteniendo el tamaño ajustado. */
+    width: auto;
+    margin-right: 20px;
 }
 
 /* El siguiente paso es la lista del menú */
@@ -49,7 +54,7 @@ ul {
     align-items: center;
 }
 
-/* Definido el listado desordenado, empezaremos con el elemento .lst */
+/* Definido el listado desordenado, empiezo con el elemento .lst */
 
 .lst {
     font-weight: bold; /* La fuente aparecera en negrita para resaltar el menú. */
@@ -57,8 +62,15 @@ ul {
 
 /* Este paso resulta complejo. En el caso de encontrar un separador en la barra de navegación, este se representa de la siguiente forma. */
 
-.lst-iniciar-sesion::after::after{
-    content: "|"; /*Con este content estoy agregando una barra separadora. */
+.separador {
+    content: "|"; /* Con el content agrego el símbolo de separador después del elemento "Registrarse" */
     margin: 32px 17px;
-    color: white;
+    color: #ffffff; 
+}
+
+ul li a {
+    padding: 28px 17px;
+    text-decoration: none;
+    color:#ffffff;
+
 }

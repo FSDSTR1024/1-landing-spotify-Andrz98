@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    color: #fff;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Rubik';
+    background-color: #191414;
+}
+
+.cont-navmenu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px 46.667px 20px  46.667px;
+	background-color: #191414;
+}
+.link-logo{
+	fill: #fff;
+    display: flex;
+    width: 134px;
+
+}
+.buttons-container{
+    display: flex;
+    gap: 20px;
+}
+.buttons-user{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn-item{
+    color:#fff;
+    padding: 28px 17px;
+    font-weight: bold;
+    font-size: 14.4px;
+    text-decoration: none;
+}
+
+.btn-item:hover{
+    color: #1ed760;
+
+}
+
+.separator {
+    color: #fff;
+    font-size: 16px;
+    margin: 32px 17px;
+}
+
+/* --Botón para el menú desplegable del Premium-
+------------------------------------------------
+-------------------------------------------------*/
+.btn-premium{
+    color: #fff;
+    background-color: #191414;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 12px;
+    cursor: pointer;
+    font-family: 'Rubik';
+}
+
+.btn-premium:hover{
+    color: #1ed760;
+}
+
+.btn-premium-header{/* Esta hecho*/
+    display: flex;
+    text-decoration: none;
+    font: inherit;
+    font-weight: 700;
+    outline: none;
+}
+
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 47.2%;
+    top: 14.7%;
+    background-color: #282828;
+    padding: 20px;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown-menu:hover{
+    background-color: #191414;
+}
+
+.show{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.option{
+    list-style-type: none;
+    list-style: none;
+    background-color: #282828;
+    display: flex;
+}
+
+
+
+#premium-options.dropdown-menu{
+    background-color: #282828;
+    padding-right:  100px;
+    padding-bottom: 50px;
+    display: flex;
+
+}
+
+.option-link{
+    color: #fff;
+    text-decoration: none; 
+    font-size: 16px; 
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.option-title{
+    background-color: #282828;
+    margin-bottom: 10px;
+}
+
+.option-description{
+    font-size: 10px;
+    font-weight: 300;
+    background-color: #282828;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+/**------------ CONTENT-SECTION --------------**/
+
+/* Estilos para el contenedor principal */
+.content_landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #191414; 
+    color: #fff;
+}
+
+/* Configuración de flexbox para organizar el contenido de la promoción */
+.content-promo {
+    display: flex;
+    max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+    gap: 40px;
+    padding: 40px;
+}
+
+/* Columna para el texto y los botones */
+.promo {
+    flex: 1; /* Ocupa la mitad del espacio disponible */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilo para el título y subtítulo */
+.ofert-promo h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ofert-promo h2 {
+    font-size: 1.2rem;
+    color: #b3b3b3; 
+}
+
+/* Estilo del temporizador */
+.timer-ofert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #1ed760; 
+}
+
+/* Estilos de los botones */
+.buttons-promo {
+    display: flex;
+    gap: 15px;
+}
+
+.button-component {
+    background-color: #f5c2c7; 
+    color: #191414;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.buttons-promo .button-component a,
+.buttons-promo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Segundo botón negro */
+.buttons-promo a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Términos legales */
+.legal-terms {
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}
+
+.legal-terms a {
+    color: #1ed760;
+    text-decoration: none;
+}
+
+/* Contenedor de la imagen */
+.img-promo {
+    flex: 1; /* Ocupa la otra mitad del espacio */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-promo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

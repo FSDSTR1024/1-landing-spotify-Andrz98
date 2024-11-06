@@ -12,6 +12,9 @@ html {
 }
 
 body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
 	font-family: 'Rubik';
     background-color: #191414;
 }
@@ -22,14 +25,13 @@ body {
 	align-items: center;
 	padding-left: 15px;
     padding-right: 15px;
-    margin: 20px 46.667px 20px  46.667px;
+    margin: 20px 20.667px 20px  46.667px;
 	background-color: #191414;
 }
 .link-logo{
 	fill: #fff;
     display: flex;
     width: 134px;
-
 }
 .buttons-container{
     display: flex;
@@ -155,13 +157,17 @@ body {
 
 /* Estilos para el contenedor principal */
 .content_landing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    background-color: #191414; 
+    width: 100%; /* Ajusta según sea necesario */
+    max-width: 1200px;
+    background: linear-gradient(to top, #191414, #191414, #191414, #FFD2D7); /* Ajusta los colores del degradado 0deg, rgba(255, 210, 215, 0) 0%, var */
     color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 auto; /* Centra el contenedor */
 }
+
+
+
 
 /* Configuración de flexbox para organizar el contenido de la promoción */
 .content-promo {
@@ -169,6 +175,7 @@ body {
     max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
     gap: 40px;
     padding: 40px;
+    margin-top: 20px;
 }
 
 /* Columna para el texto y los botones */
@@ -181,26 +188,33 @@ body {
 
 /* Estilo para el título y subtítulo */
 .ofert-promo h1 {
-    font-size: 2.5rem;
+    font-size: 39.5429px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .ofert-promo h2 {
-    font-size: 1.2rem;
-    color: #b3b3b3; 
+    font-size: 16px;
+    color: #fff; 
+    font-weight: 300;
 }
 
 /* Estilo del temporizador */
 .timer-ofert {
     display: flex;
-    align-items: center;
     gap: 10px;
+    font-size: 16px;
+    font-weight: 300;
     background-color: #333;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #1ed760; 
+    padding: 4px 8px;
+    margin-right: 290px;
+    border-radius: none;
+}
+
+.icon-ofert{
+    fill: #0064c1;
+    width: 16px;
+    height: 16px;
 }
 
 /* Estilos de los botones */
@@ -239,13 +253,13 @@ body {
 
 /* Términos legales */
 .legal-terms {
-    font-size: 0.9rem;
-    color: #b3b3b3;
+    font-size: 11px;
+    color: #fff;
 }
 
 .legal-terms a {
-    color: #1ed760;
-    text-decoration: none;
+    color: #fff;
+
 }
 
 /* Contenedor de la imagen */
@@ -257,7 +271,40 @@ body {
 }
 
 .img-promo img {
-    max-width: 100%;
+    max-width: 48%;
     height: auto;
     border-radius: 10px;
+    margin-left: 132.5px ;
+    margin-top: 48.5px;
 }
+
+
+/* Ajustes para pantallas grandes: cont-navmenu, content_landing*/
+
+.cont-navmenu, .content_landing{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Ajustes para pantallas medianas mediante @media () */
+
+@media (max-width: 1200px){
+    .cont-navmenu, .content_landing{
+        max-width: 90%;
+    }
+}
+
+/* Ajustes para pantallas dpequeñas mediante @media () */
+
+@media (max-width: 768px){
+    .cont-navmenu, .content_landing{
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .buttons-promo{
+        flex-direction:column;
+        gap: 10px;
+    }
+}
+

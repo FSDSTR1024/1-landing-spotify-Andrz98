@@ -163,12 +163,11 @@ body {
 .content_landing {
     width: 100%;
     /* Ajusta según sea necesario */
-    max-width: 1200px;
-    background: linear-gradient(to top, #191414, #191414, #191414, #FFD2D7);
+    max-width: 4000px;
+    background: linear-gradient(to top, #000, #000, #191414, #FFD2D7);
     /* Ajusta los colores del degradado 0deg, rgba(255, 210, 215, 0) 0%, var */
     color: #fff;
     padding: 40px;
-    border-radius: 10px;
     margin: 0 auto;
     /* Centra el contenedor */
 }
@@ -211,12 +210,11 @@ body {
 /* Estilo del temporizador */
 .timer-ofert {
     display: flex;
-    gap: 10px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 360;
     background-color: #333;
     padding: 4px 8px;
-    margin-right: 290px;
+    margin-right: 300px;
     border-radius: none;
 }
 
@@ -233,9 +231,12 @@ body {
 }
 
 .button-component {
+    display: flex;
+    gap: 15px;
     background-color: #f5c2c7;
     color: #191414;
-    padding: 15px 30px;
+    padding: 8px 32px;
+    margin-right: 10px;
     border: none;
     border-radius: 50px;
     font-weight: bold;
@@ -290,37 +291,3 @@ body {
 
 
 /* Ajustes para pantallas grandes: cont-navmenu, content_landing*/
-
-.cont-navmenu,
-.content_landing {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Ajustes para pantallas medianas mediante @media () */
-
-@media (max-width: 1200px) {
-
-    .cont-navmenu,
-    .content_landing {
-        max-width: 90%;
-    }
-}
-
-/* Ajustes para pantallas dpequeñas mediante @media () */
-
-@media (max-width: 768px) {
-
-    .cont-navmenu,
-    .content_landing {
-        max-width: 100%;
-        padding: 20px;
-    }
-
-    .buttons-promo {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

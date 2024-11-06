@@ -1,57 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     color: #fff;
 }
 
 html {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 body {
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-	font-family: 'Rubik';
+    font-family: 'Rubik';
     background-color: #191414;
 }
 
 .cont-navmenu {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
     padding-right: 15px;
-    margin: 20px 20.667px 20px  46.667px;
-	background-color: #191414;
+    margin: 20px 20.667px 20px 46.667px;
+    background-color: #191414;
 }
-.link-logo{
-	fill: #fff;
+
+.link-logo {
+    fill: #fff;
     display: flex;
     width: 134px;
 }
-.buttons-container{
+
+.buttons-container {
     display: flex;
     gap: 20px;
 }
-.buttons-user{
+
+.buttons-user {
     display: flex;
     text-decoration: none;
     list-style: none;
 }
 
-.btn-item{
-    color:#fff;
+.btn-item {
+    color: #fff;
     padding: 28px 17px;
     font-weight: bold;
     font-size: 14.4px;
     text-decoration: none;
 }
 
-.btn-item:hover{
+.btn-item:hover {
     color: #1ed760;
 
 }
@@ -65,7 +68,7 @@ body {
 /* --Botón para el menú desplegable del Premium-
 ------------------------------------------------
 -------------------------------------------------*/
-.btn-premium{
+.btn-premium {
     color: #fff;
     background-color: #191414;
     border: none;
@@ -76,11 +79,12 @@ body {
     font-family: 'Rubik';
 }
 
-.btn-premium:hover{
+.btn-premium:hover {
     color: #1ed760;
 }
 
-.btn-premium-header{/* Esta hecho*/
+.btn-premium-header {
+    /* Esta hecho*/
     display: flex;
     text-decoration: none;
     font: inherit;
@@ -102,17 +106,17 @@ body {
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.dropdown-menu:hover{
+.dropdown-menu:hover {
     background-color: #191414;
 }
 
-.show{
+.show {
     display: block;
     opacity: 1;
     visibility: visible;
 }
 
-.option{
+.option {
     list-style-type: none;
     list-style: none;
     background-color: #282828;
@@ -121,30 +125,30 @@ body {
 
 
 
-#premium-options.dropdown-menu{
+#premium-options.dropdown-menu {
     background-color: #282828;
-    padding-right:  100px;
+    padding-right: 100px;
     padding-bottom: 50px;
     display: flex;
 
 }
 
-.option-link{
+.option-link {
     color: #fff;
-    text-decoration: none; 
-    font-size: 16px; 
+    text-decoration: none;
+    font-size: 16px;
     background-color: #282828;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
 }
 
-.option-title{
+.option-title {
     background-color: #282828;
     margin-bottom: 10px;
 }
 
-.option-description{
+.option-description {
     font-size: 10px;
     font-weight: 300;
     background-color: #282828;
@@ -157,13 +161,16 @@ body {
 
 /* Estilos para el contenedor principal */
 .content_landing {
-    width: 100%; /* Ajusta según sea necesario */
+    width: 100%;
+    /* Ajusta según sea necesario */
     max-width: 1200px;
-    background: linear-gradient(to top, #191414, #191414, #191414, #FFD2D7); /* Ajusta los colores del degradado 0deg, rgba(255, 210, 215, 0) 0%, var */
+    background: linear-gradient(to top, #191414, #191414, #191414, #FFD2D7);
+    /* Ajusta los colores del degradado 0deg, rgba(255, 210, 215, 0) 0%, var */
     color: #fff;
     padding: 40px;
     border-radius: 10px;
-    margin: 0 auto; /* Centra el contenedor */
+    margin: 0 auto;
+    /* Centra el contenedor */
 }
 
 
@@ -172,7 +179,8 @@ body {
 /* Configuración de flexbox para organizar el contenido de la promoción */
 .content-promo {
     display: flex;
-    max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+    max-width: 1200px;
+    /* Ajusta el ancho máximo según sea necesario */
     gap: 40px;
     padding: 40px;
     margin-top: 20px;
@@ -180,7 +188,8 @@ body {
 
 /* Columna para el texto y los botones */
 .promo {
-    flex: 1; /* Ocupa la mitad del espacio disponible */
+    flex: 1;
+    /* Ocupa la mitad del espacio disponible */
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -195,7 +204,7 @@ body {
 
 .ofert-promo h2 {
     font-size: 16px;
-    color: #fff; 
+    color: #fff;
     font-weight: 300;
 }
 
@@ -211,7 +220,7 @@ body {
     border-radius: none;
 }
 
-.icon-ofert{
+.icon-ofert {
     fill: #0064c1;
     width: 16px;
     height: 16px;
@@ -224,7 +233,7 @@ body {
 }
 
 .button-component {
-    background-color: #f5c2c7; 
+    background-color: #f5c2c7;
     color: #191414;
     padding: 15px 30px;
     border: none;
@@ -264,7 +273,8 @@ body {
 
 /* Contenedor de la imagen */
 .img-promo {
-    flex: 1; /* Ocupa la otra mitad del espacio */
+    flex: 1;
+    /* Ocupa la otra mitad del espacio */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,37 +284,43 @@ body {
     max-width: 48%;
     height: auto;
     border-radius: 10px;
-    margin-left: 132.5px ;
+    margin-left: 132.5px;
     margin-top: 48.5px;
 }
 
 
 /* Ajustes para pantallas grandes: cont-navmenu, content_landing*/
 
-.cont-navmenu, .content_landing{
+.cont-navmenu,
+.content_landing {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* Ajustes para pantallas medianas mediante @media () */
 
-@media (max-width: 1200px){
-    .cont-navmenu, .content_landing{
+@media (max-width: 1200px) {
+
+    .cont-navmenu,
+    .content_landing {
         max-width: 90%;
     }
 }
 
 /* Ajustes para pantallas dpequeñas mediante @media () */
 
-@media (max-width: 768px){
-    .cont-navmenu, .content_landing{
+@media (max-width: 768px) {
+
+    .cont-navmenu,
+    .content_landing {
         max-width: 100%;
         padding: 20px;
     }
 
-    .buttons-promo{
-        flex-direction:column;
+    .buttons-promo {
+        flex-direction: column;
         gap: 10px;
     }
 }
 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

@@ -339,5 +339,66 @@ body {
     margin-top: 48.5px;
 }
 
+/* -------- Table Grid Premium -------*/
+.content-benefit {
+    margin: 0 242px;
+}
 
-/* Ajustes para pantallas grandes: cont-navmenu, content_landing*/
+.list-plans {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+    max-width: 600px;
+}
+
+.plan-title h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.plan-title h3 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin: 8px 0px 24px;
+
+}
+
+.table-plans {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    border-bottom: 1px solid #fff;
+    max-width: 100%;
+    box-sizing: content-box;
+}
+
+tr {
+    display: flex;
+    align-items: flex-end;
+    background-color: #1ed760;
+}
+
+.th-description {
+    margin: 16px 16px 10px;
+}
+
+.th-free {
+    padding: 32px 8px 32px 20px;
+}
+
+.th-premium {
+    padding: 32px 8px 32px 20px;
+}
+
+.th-svg-premium {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+}

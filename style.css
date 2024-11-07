@@ -359,12 +359,12 @@ body {
 
 .plan-title h2 {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 40px;
 }
 
 .plan-title h3 {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 24px;
     text-align: center;
     margin: 8px 0px 24px;
 
@@ -382,7 +382,6 @@ body {
 tr {
     display: flex;
     align-items: flex-end;
-    background-color: #1ed760;
 }
 
 .th-description {
@@ -391,14 +390,20 @@ tr {
 
 .th-free {
     padding: 32px 8px 32px 20px;
+    text-align: center;
 }
 
 .th-premium {
     padding: 32px 8px 32px 20px;
+    text-align: start;
+}
+
+.content-premium {
+    display: flex;
 }
 
 .th-svg-premium {
     fill: #fff;
-    width: 24px;
-    height: 24px;
+    width: 15px;
+    height: 15px;
 }

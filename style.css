@@ -258,21 +258,13 @@ body {
     cursor: pointer;
 }
 
-.button-component a {
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 15px;
-}
-
 
 .btn-prueba,
 .btn-plan {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     border-radius: 30px;
-    /* Cambiado a 30px para una forma de cápsula */
-    padding: 15px 40px;
-    /* Ajusta el padding para darle forma de botón alargado */
+    padding: 8px 16px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -286,24 +278,25 @@ body {
 /* Estilos específicos para cada botón */
 .btn-prueba {
     background-color: #f5c2c7;
-    /* Color de fondo rosa */
-    color: #191414;
+}
+
+.btn-prueba a {
+    margin: 0;
 }
 
 .btn-prueba:hover {
-    background-color: #f6c2c0;
-    /* Efecto hover para el botón rosa */
+    background-color: #ffebee;
+    ;
 }
 
 .btn-plan {
     background-color: #333;
-    /* Color de fondo negro */
     color: #fff;
+    border: 1px solid #fff;
 }
 
 .btn-plan:hover {
     background-color: #555;
-    /* Efecto hover para el botón negro */
 }
 
 

@@ -68,8 +68,8 @@ body {
 /* --Botón para el menú desplegable del Premium-
 ------------------------------------------------
 -------------------------------------------------*/
+
 .btn-premium {
-    color: #fff;
     background-color: #191414;
     border: none;
     font-size: 16px;
@@ -79,9 +79,10 @@ body {
     font-family: 'Rubik';
 }
 
-.btn-premium:hover {
+.premium-title span:hover {
     color: #1ed760;
 }
+
 
 .btn-premium-header {
     /* Esta hecho*/
@@ -93,22 +94,21 @@ body {
 }
 
 
+
 .dropdown-menu {
     display: none;
     position: absolute;
     left: 47.2%;
-    top: 14.7%;
+    top: 13.9%;
     background-color: #282828;
     padding: 20px;
+    margin-left: 5px;
     z-index: 10;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.dropdown-menu:hover {
-    background-color: #191414;
-}
 
 .show {
     display: block;
@@ -116,22 +116,27 @@ body {
     visibility: visible;
 }
 
+.option a {
+    margin-right: 84px;
+    padding-left: 20px;
+}
+
+
 .option {
     list-style-type: none;
     list-style: none;
     background-color: #282828;
     display: flex;
+    margin-bottom: 20px;
 }
 
-
-
-#premium-options.dropdown-menu {
+.option #premium-options.dropdown-menu {
     background-color: #282828;
     padding-right: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     display: flex;
-
 }
+
 
 .option-link {
     color: #fff;
@@ -139,9 +144,11 @@ body {
     font-size: 16px;
     background-color: #282828;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     margin-top: 15px;
 }
+
 
 .option-title {
     background-color: #282828;
@@ -214,7 +221,7 @@ body {
     font-weight: 360;
     background-color: #333;
     padding: 4px 8px;
-    margin-right: 248px;
+    margin-right: 245px;
     border-radius: none;
 }
 
@@ -222,6 +229,7 @@ body {
     fill: #0064c1;
     width: 16px;
     height: 16px;
+    margin-right: 10px;
 }
 
 /* Estilos de los botones */
@@ -283,7 +291,7 @@ body {
 }
 
 .btn-prueba:hover {
-    background-color: #f4a5aa;
+    background-color: #f6c2c0;
     /* Efecto hover para el botón rosa */
 }
 
@@ -306,7 +314,7 @@ body {
 }
 
 .btn-plan {
-    background-color: #1ed760;
+    background-color: #000;
     color: #fff;
 }
 

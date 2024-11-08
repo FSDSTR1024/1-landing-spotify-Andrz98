@@ -9,6 +9,7 @@
 
 html {
     font-size: 16px;
+    background-color: #000;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik';
-    background-color: #191414;
+    background-color: #000;
 }
 
 .cont-navmenu {
@@ -26,7 +27,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 20px 20.667px 20px 46.667px;
-    background-color: #191414;
+    background-color: #000;
 
 }
 
@@ -404,14 +405,56 @@ tr {
     text-align: start;
 }
 
+.premium-container {
+    position: relative;
+    max-width: min-content;
+    background-color: #0064c1;
+}
+
+.content-premium {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    width: 50%;
+    height: 20%;
+}
+
+.th-svg-premium {
+    fill: currentColor;
+    font-size: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*
+.premium-container {
+    max-width: 4000px;
+}
+
 .content-premium {
     display: flex;
-    gap: 8px;
+    jus gap: 8px;
+}
+
+.content-premum p {
+    margin: 0;
+    line-height: 1.2;
 }
 
 .th-svg-premium {
     fill: #fff;
     overflow: visible;
-    width: 24px;
-    height: 24px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
+*/

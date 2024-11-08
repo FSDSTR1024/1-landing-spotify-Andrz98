@@ -27,6 +27,7 @@ body {
     padding-right: 15px;
     margin: 20px 20.667px 20px 46.667px;
     background-color: #191414;
+
 }
 
 .link-logo {
@@ -171,7 +172,7 @@ body {
     width: 100%;
     /* Ajusta según sea necesario */
     max-width: 4000px;
-    background: linear-gradient(to top, #000, #000, #191414, #FFD2D7);
+    background: linear-gradient(to top, #000, #000, #000, #FFD2D7);
     /* Ajusta los colores del degradado 0deg, rgba(255, 210, 215, 0) 0%, var */
     color: #fff;
     padding: 40px;
@@ -340,13 +341,19 @@ body {
 }
 
 /* -------- Table Grid Premium -------*/
+
 .content-benefit {
-    margin: 0 242px;
+    margin: 0 42px;
+}
+
+.content-plans {
+    padding: 75px 0;
 }
 
 .list-plans {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .plan-title {
@@ -373,7 +380,6 @@ body {
 .table-plans {
     display: grid;
     justify-content: center;
-    justify-items: center;
     border-bottom: 1px solid #fff;
     max-width: 100%;
     box-sizing: content-box;
@@ -400,10 +406,12 @@ tr {
 
 .content-premium {
     display: flex;
+    gap: 8px;
 }
 
 .th-svg-premium {
     fill: #fff;
-    width: 15px;
-    height: 15px;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
 }

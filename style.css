@@ -389,6 +389,7 @@ body {
 tr {
     display: flex;
     align-items: flex-end;
+    max-width: auto;
 }
 
 .th-description {
@@ -406,16 +407,17 @@ tr {
 }
 
 .premium-container {
-    position: relative;
+    display: flex;
     max-width: min-content;
-    background-color: #0064c1;
+    gap: 2px;
+
 }
 
 .content-premium {
     position: relative;
-    z-index: 1;
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
     gap: 2px;
     width: 50%;
     height: 20%;
@@ -423,38 +425,15 @@ tr {
 
 .th-svg-premium {
     fill: currentColor;
-    font-size: 5px;
-}
-
-
-
-
-
-
-
-
-
-/*
-.premium-container {
-    max-width: 4000px;
-}
-
-.content-premium {
     display: flex;
-    jus gap: 8px;
+    flex-direction: column;
+    align-items: center;
+    width: 24px;
+    height: 24px;
 }
 
-.content-premum p {
-    margin: 0;
-    line-height: 1.2;
-}
+/* Estilos generales del cuerpo de la tabla */
 
-.th-svg-premium {
-    fill: #fff;
-    overflow: visible;
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    vertical-align: middle;
+.table-body {
+    display: flex;
 }
-*/

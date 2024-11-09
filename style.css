@@ -452,12 +452,17 @@ body {
     flex-direction: column;
 }
 
-.column-1 {
+.column {
     display: flex;
     align-items: flex-end;
     vertical-align: inherit;
     unicode-bidi: isolate;
     border-color: inherit;
+    border-bottom: solid 1px;
+}
+
+.column:hover {
+    background-color: #282828;
 }
 
 .benefit-1 {
@@ -483,8 +488,82 @@ body {
     margin-left: 10px;
 }
 
+.icon-x-2 {
+    padding: 16px 10px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    margin-left: 10px;
+}
+
+.icon-x-3 {
+    padding: 16px 10px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    margin-left: 10px;
+}
+
+.icon-x-4 {
+    padding: 16px 10px;
+    position: relative;
+    bottom: 10px;
+    right: 2px;
+    margin-left: 10px;
+}
+
+.icon-x-5 {
+    padding: 16px 10px;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+    margin-left: 10px;
+}
+
+.icon-x-6 {
+    padding: 16px 10px;
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+    margin-left: 10px;
+}
+
 .icon-check {
     padding: 16px 10px;
     position: relative;
+    left: 105px;
+}
+
+.icon-check-2 {
+    padding: 16px 10px;
+    position: relative;
+    left: 110px;
+}
+
+.icon-check-3 {
+    padding: 16px 10px;
+    position: relative;
     left: 95px;
+}
+
+.icon-check-4 {
+    padding: 16px 10px;
+    position: relative;
+    left: 102px;
+}
+
+.icon-check-5 {
+    padding: 16px 10px;
+    position: relative;
+    left: 92px;
+}
+
+.icon-check-6 {
+    padding: 16px 10px;
+    position: relative;
+    left: 123px;
+}
+
+.icon-check-1 .icon-check-2 .icon-check-3 .icon-check-4 .icon-check-5 .icon-check-6:hover {
+    background-color: #282828;
 }

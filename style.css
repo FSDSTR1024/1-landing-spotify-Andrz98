@@ -386,31 +386,38 @@ body {
     box-sizing: content-box;
 }
 
-tr {
+.tr-header {
     display: flex;
     align-items: flex-end;
     max-width: auto;
+    border-bottom: solid 1px;
 }
 
 .th-description {
-    margin: 16px 16px 10px;
+    padding: 32px 8px 32px 20px;
+    margin-right: 55px;
+    position: relative;
+    top: 30px;
+    right: 10px
 }
 
 .th-free {
     padding: 32px 8px 32px 20px;
     text-align: center;
+    position: relative;
+
 }
 
 .th-premium {
-    padding: 32px 8px 32px 20px;
     text-align: start;
+    margin-right: 20px;
 }
 
 .premium-container {
     display: flex;
     max-width: min-content;
     gap: 2px;
-
+    padding-bottom: 32px;
 }
 
 .content-premium {
@@ -421,6 +428,11 @@ tr {
     gap: 2px;
     width: 50%;
     height: 20%;
+    margin-left: 40px;
+}
+
+.p-content-premium {
+    text-align: start;
 }
 
 .th-svg-premium {
@@ -451,6 +463,8 @@ tr {
 .benefit-1 {
     text-align: left;
     padding: 16px 10px;
+
+    margin-right: 60px;
 }
 
 .text-dsc-1 {
@@ -460,4 +474,17 @@ tr {
     text-decoration-style: dashed;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
+}
+
+.icon-x {
+    padding: 16px 10px;
+    position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+}
+
+.icon-check {
+    padding: 16px 10px;
+    position: relative;
+    left: 95px;
 }

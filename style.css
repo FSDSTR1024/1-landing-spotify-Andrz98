@@ -72,7 +72,7 @@ body {
 -------------------------------------------------*/
 
 .btn-premium {
-    background-color: #191414;
+    background-color: #000;
     border: none;
     font-size: 16px;
     font-weight: bold;
@@ -292,7 +292,7 @@ body {
 }
 
 .btn-plan {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     border: 1px solid #fff;
 }
@@ -434,6 +434,30 @@ tr {
 
 /* Estilos generales del cuerpo de la tabla */
 
+
 .table-body {
+    display: grid;
+    flex-direction: column;
+}
+
+.column-1 {
     display: flex;
+    align-items: flex-end;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.benefit-1 {
+    text-align: left;
+    padding: 16px 10px;
+}
+
+.text-dsc-1 {
+    font-size: 14.732px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
 }

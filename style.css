@@ -567,10 +567,17 @@ body {
 
 /*---------- Planes de métodos de pago ------------ */
 
+.metod-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .visa {
     width: 40px;
     height: 40px;
+    background-color: #fff;
 }
 
 .masterCard {
@@ -580,13 +587,13 @@ body {
 }
 
 .americanExpress {
-    fill: #0071CE;
     width: 40px;
     height: 40px;
+    background-color: #fff;
 }
 
 .payPal {
     width: 40px;
     height: 40px;
-    borde
+    background-color: #fff;
 }

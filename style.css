@@ -566,34 +566,111 @@ body {
 }
 
 /*---------- Planes de métodos de pago ------------ */
+.pay-list {
+    margin-top: 16px;
+}
+
+.pay-title-1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 1;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pay-title-2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 16px auto 32px;
+    text-align: center;
+    padding: 0px;
+    max-width: 671px;
+}
 
 .metod-list {
-    list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .visa {
     width: 40px;
     height: 40px;
     background-color: #fff;
+    margin-right: 10px;
+    padding: 4px;
+    border-radius: 5px;
 }
 
 .masterCard {
     width: 40px;
     height: 40px;
     background-color: #fff;
+    margin-right: 10px;
+    padding: 4px;
+    border-radius: 5px;
 }
 
 .americanExpress {
     width: 40px;
     height: 40px;
+    padding: 4px;
     background-color: #fff;
+    border-radius: 5px;
 }
 
 .payPal {
     width: 40px;
     height: 40px;
     background-color: #fff;
+    margin-left: 10px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+/*---------- Info complementaria ---------------*/
+
+.info-complement {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    color: #fff;
+    flex-direction: row;
+    margin: 48px auto;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.info-list {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.info::marker {
+    content: "✓";
+}
+
+.p-info {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
 }

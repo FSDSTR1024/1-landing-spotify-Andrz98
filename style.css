@@ -171,14 +171,11 @@ body {
 /* Estilos para el contenedor principal */
 .content_landing {
     width: 100%;
-    /* Ajusta según sea necesario */
     max-width: 4000px;
-    background: linear-gradient(to top, #000, #000, #000, #FFD2D7);
-    /* Ajusta los colores del degradado 0deg, rgba(255, 210, 215, 0) 0%, var */
+    background: linear-gradient(to top, #000, #000, #000, #000, #000, #000, #000, #000, #000, #FFD2D7);
     color: #fff;
     padding: 40px;
     margin: 0 auto;
-    /* Centra el contenedor */
 }
 
 

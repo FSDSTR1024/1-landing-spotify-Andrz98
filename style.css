@@ -361,6 +361,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    left: 210px;
     margin: 0 30px;
     max-width: 600px;
 }
@@ -381,7 +383,6 @@ body {
 .table-plans {
     display: grid;
     justify-content: center;
-    border-bottom: 1px solid #fff;
     max-width: 100%;
     box-sizing: content-box;
 }
@@ -564,6 +565,26 @@ body {
     left: 123px;
 }
 
-.icon-check-1 .icon-check-2 .icon-check-3 .icon-check-4 .icon-check-5 .icon-check-6:hover {
-    background-color: #282828;
+/*---------- Planes de métodos de pago ------------ */
+
+
+.visa {
+    width: 40px;
+    height: 40px;
+}
+
+.masterCard {
+    width: 50px;
+    height: 50px;
+}
+
+.americanExpress {
+    fill: #0071CE;
+    width: 24px;
+    height: 24px;
+}
+
+.payPal {
+    width: 40px;
+    height: 40px;
 }

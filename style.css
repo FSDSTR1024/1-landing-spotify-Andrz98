@@ -671,3 +671,107 @@ body {
     position: relative;
     left: 10px;
 }
+
+/*------------ Cards-Sections----------*/
+.cards-section {
+    margin: 0 auto;
+    padding: 24px;
+    margin: 0px 0px 46.667px 46.667px;
+}
+
+
+.content-plans {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 40px;
+
+}
+
+.cards-plans {
+    background-color: #2c2b2b;
+    border-radius: 10px;
+    padding: 20px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top-offert-description {
+    max-width: 100%;
+    position: relative;
+    bottom: 20px;
+    margin-right: 200px;
+    list-style: none;
+    background-color: #f5c2c7;
+    padding: 16px 8px;
+    border-radius: 10px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 13.75px;
+    text-align: start;
+}
+
+.type-offert {
+    color: #000;
+}
+
+
+.logo-type,
+.type-element {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.type-element {
+    position: relative;
+    bottom: 12px;
+    font-size: 22px;
+}
+
+.title-article {
+    font-size: 45px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.p-title-article {
+    font-size: 21px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+/* Botón de acción */
+.current-plan-button .box-button-premium {
+    background-color: #ffbed5;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.box-button-premium:hover {
+    background-color: #f09cb7;
+}
+
+.box-button-premium a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Información de pie de tarjeta */
+.fine-print .print-conditions a {
+    color: #ffbed5;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0.5px solid #444;
+    margin: 20px 0;
+}

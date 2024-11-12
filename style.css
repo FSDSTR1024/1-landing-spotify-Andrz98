@@ -172,7 +172,7 @@ body {
 .content_landing {
     width: 100%;
     max-width: 4000px;
-    background: linear-gradient(to top, #000, #000, #000, #000, #000, #000, #000, #000, #000, #FFD2D7);
+    background: linear-gradient(to top, #121212, #121212, #121212, #121212, #121212, #121212, #121212, #121212, #121212, #FFD2D7);
     color: #fff;
     padding: 40px;
     margin: 0 auto;
@@ -185,7 +185,6 @@ body {
 .content-promo {
     display: flex;
     max-width: 1200px;
-    /* Ajusta el ancho máximo según sea necesario */
     gap: 40px;
     padding: 40px;
     margin-top: 20px;
@@ -789,6 +788,14 @@ hr {
     font-size: 16px;
     background-color: #f5c2c7;
     width: 100%;
+    cursor: pointer;
+}
+
+.box-button button:hover,
+.box-button-2 button:hover,
+.box-button-3 button:hover,
+.box-button-4 button:hover {
+    transform: scale(1.03);
 }
 
 .type-span a {
@@ -901,6 +908,7 @@ hr {
     font-size: 16px;
     background-color: #c4b1d4;
     width: 100%;
+    cursor: pointer;
 }
 
 .type-span-2 a {
@@ -1022,6 +1030,7 @@ hr {
     font-size: 16px;
     background-color: #ffc862;
     width: 100%;
+    cursor: pointer;
 }
 
 .type-span-3 a {
@@ -1136,6 +1145,7 @@ hr {
     font-size: 16px;
     background-color: #a5bbd1;
     width: 100%;
+    cursor: pointer;
 }
 
 .type-span-4 a {
@@ -1155,4 +1165,48 @@ hr {
 
 .print-conditions-2 a {
     color: #a7a7a7;
+}
+
+
+/*----------Footer-Space----------*/
+
+.footer-content {
+    background-color: #000;
+    padding: 50px 0px 20px;
+    font-size: 12px;
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.nav-footer {
+    padding: 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.container-logo {
+    padding: 0px 15px;
+}
+
+.container-ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #0064c1;
+}
+
+.ul-links-ft {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+
 }

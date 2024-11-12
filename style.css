@@ -1369,6 +1369,7 @@ hr {
     align-items: center;
     justify-content: flex-end;
     text-decoration: none;
+    padding: 12px 0px;
 }
 
 .country-section a:hover {
@@ -1391,8 +1392,32 @@ hr {
     white-space: nowrap;
     text-decoration: none;
     margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    padding: 12px 0px;
+    position: relative;
+    top: 13px;
 }
 
 .link-legal:hover {
     color: #1ed760;
+}
+
+.brand-ab {
+    margin-inline-start: 125px;
+    padding: 12px 0px;
+}
+
+.button-legal {
+    text-decoration: none;
+    background-color: #000;
+    border: none;
+    word-break: break-all;
+    white-space: nowrap;
+    position: relative;
+    top: 13px;
+}
+
+.button-legal:hover {
+    color: #1ed760;
+    cursor: pointer;
 }

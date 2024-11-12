@@ -1183,7 +1183,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    max-height: auto;
+    max-height: 0;
 }
 
 .container-logo {
@@ -1200,13 +1200,23 @@ hr {
     padding: 0px 15px;
     display: flex;
     flex-direction: column;
+}
+
+.li-ft,
+.li-ft a {
+    font-size: 16px;
+    display: list-item;
+    text-align: start;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.8;
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
 
+.li-ft:hover,
+.li-ft:hover a {
+    color: #1ed760;
 }
